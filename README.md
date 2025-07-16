@@ -40,10 +40,6 @@
 - **알림 시스템**: 자체 알림 서비스
 ## 🏗️ 시스템 아키텍처
 ### 데이터 플로우
-```
-Git Repository → Commit Hook → Code Analysis Engine → LLM Processing → 
-Error Detection → Notification System → Developer Alert
-```
 ![시스템 아키텍처 다이어그램](https://github.com/KingSangHoon/ktedumvp/blob/main/%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.png)
 ### 주요 컴포넌트
 - **Git Hook Listener**: 실시간 커밋 감지
