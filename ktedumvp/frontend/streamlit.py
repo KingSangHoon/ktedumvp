@@ -14,7 +14,7 @@ API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")  # 기본값 �
 
 # ===== 페이지 설정 =====
 st.set_page_config(
-    page_title="GitHub Commit Analyzer",
+    page_title="GitHub Commit Analyzer!",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
