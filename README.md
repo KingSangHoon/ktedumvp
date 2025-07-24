@@ -143,3 +143,5 @@ def analyze_real_commit(repo_owner, repo_name, commit_sha, analysis_types, githu
 - 메인 화면: 커밋 목록 및 조회 버튼
 - 팝업 다이얼로그: 상세 분석 결과 표시
 ```
+
+shkim-app-frontend-gxeydgegd2feh6dr.swedencentral-01.azurewebsites.net
