@@ -1,0 +1,92 @@
+https://adorable-hail-415.notion.site/KT-ds-MS-AI-1f9137efedf68028aec6c315379e637e
+https://github.com/koreaEva/KTds3
+https://momail.kr
+https://portal.azure.com
+
+
+
+계정
+ - ktds3_04@modulabsbiz.onmicrosoft.com
+ - modu123!
+ 
+ - emic389318@momail.kr
+ - Tomato228140!
+ 
+리소스 그룹 이름 - user04sh-RG
+openai - sh-openai-001
+gpt-4o-mini - dev-sh-gpt-4o-mini
+webapp - shkim.azurewebsites.net
+
+
+
+
+azure resourve group을 ktds04sh-RG 라는 이름으로 만드는데 한국 중부 지역에 만드는 스크립트를 작성해줘
+리소스 그룹 생성 = az group create --name shkim-RG --location swedencentral
+shkim-RG 리소스 그룹에 shkim-openai-001이라는 openai 서비스를 만드는 azure CLI를 만들어줘 
+openai 서비스 생성 = az cognitiveservices account create --name shkim-openai-001 --resource-group shkim-RG --kind OpenAI --sku S0 --location swedencentral
+
+
+model 
+ - text-embedding-3-small
+ - gpt-4o-mini
+ 
+cmd
+ - streamlit 실행 : streamlit run .\04.simple_steamlit.py
+ - 가상환경 진입 : azure_clean_env\Scripts\activate
+ - 가상환경 생성 : python -m venv 가상환경이름
+ - 가상환경 종료 : deactivate
+ 
+ 
+
+
+
+
+git clone https://github.com/KingSangHoon/ktedumvp.git
+git remote add origin https://github.com/KingSangHoon/ktedumvp.git
+
+
+git status
+
+# 2. 변경된 파일 추가 (전체)
+git add .
+# 또는 특정 파일만
+git add 파일명
+
+git commit -m "커밋 메시지"
+
+# 4. 원격 저장소에 push
+git push origin main
+
+
+
+
+
+
+
+
+노션 자동 기록: "노션에 적어줘", "노션에 기록해줘", "노션에 작성", "노션에 적어", "노션에 써줘", "노션에 메모", "노션 기록", "노션 작성" 등의 표현이 포함된 요청 시 자동으로 일일 생각 정리에 기록합니다. 
+
+노션 자동 기록 처리방법:
+1. Notion:search로 "일일 생각 정리" 검색하여 템플릿 찾기
+2. 오늘 날짜 "YYYY.MM.DD - 생각 정리 노트" 페이지 확인
+3. 없으면 템플릿 복사하여 새 페이지 생성 후 "📝 일일 생각 정리" 하위로 이동
+4. 내용 분석하여 적절한 섹션 자동 선택:
+   - 목표/계획 → 🎯 주요 목표
+   - 아이디어/발상 → 💡 아이디어 메모 > 새로운 아이디어  
+   - 개선점 → 💡 아이디어 메모 > 개선할 점
+   - 학습내용 → 📚 학습 내용 > 배운 것
+   - 적용계획 → 📚 학습 내용 > 적용할 것
+   - 문제/이슈 → ⚡ 문제 해결 > 현재 문제
+   - 해결책 → ⚡ 문제 해결 > 해결 방안
+   - 성과/잘한점 → 🔄 일일 회고 > 잘한 점
+   - 반성/아쉬운점 → 🔄 일일 회고 > 부족한 점  
+   - 할일 → 🔄 일일 회고 > 내일 할 일
+   - 궁금증 → 🌊 자유로운 생각 > 궁금한 것들
+   - 기분/감정 → 🌊 자유로운 생각 > 감정과 기분
+   - 기타 → 🌊 자유로운 생각 > 떠오른 생각들
+5. 해당 섹션에 내용 추가 후 확인 메시지 응답
+
+
+
+
+
